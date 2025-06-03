@@ -1,29 +1,40 @@
-📱 Aplikasi RecipeBox Android dengan Firebase  
-Aplikasi ini merupakan aplikasi mobile Android sederhana yang dibuat untuk memenuhi Ujian Akhir Praktikum mata kuliah Pengembangan Aplikasi Mobile. RecipeBox dirancang untuk membantu pengguna mengelola resep masak pribadi dengan mudah dan efisien.
+<h1>📱 Aplikasi RecipeBox Android dengan Firebase</h1>
 
-✨ Fitur Utama
+<p>
+Aplikasi ini merupakan aplikasi mobile Android sederhana yang dibuat untuk memenuhi <strong>Ujian Akhir Praktikum</strong> mata kuliah <em>Pengembangan Aplikasi Mobile</em>. <strong>RecipeBox</strong> dirancang untuk membantu pengguna mengelola resep masak pribadi dengan mudah dan efisien.
+</p>
 
-**Autentikasi**  
-Proses login menggunakan Firebase Authentication untuk memastikan keamanan dan privasi data resep pengguna.
+<h2>✨ Fitur Utama</h2>
 
-**Penyimpanan Data**  
-Data resep disimpan secara realtime menggunakan Firebase Realtime Database. Gambar resep dikonversi menjadi string menggunakan Base64 Encoding agar dapat disimpan di dalam database.
+<ul>
+  <li><strong>Autentikasi</strong><br>
+  Proses login menggunakan <em>Firebase Authentication</em> untuk memastikan keamanan dan privasi data resep pengguna.</li>
 
-**Tampilan Data**  
-Daftar resep ditampilkan dalam bentuk daftar menggunakan RecyclerView, lengkap dengan nama resep dan durasi memasak. Gambar resep dimuat menggunakan Glide Library agar proses loading gambar lebih cepat dan efisien.
+  <li><strong>Penyimpanan Data</strong><br>
+  Data resep disimpan secara realtime menggunakan <em>Firebase Realtime Database</em>. Gambar resep dikonversi menjadi string menggunakan <strong>Base64 Encoding</strong> agar dapat disimpan di dalam database.</li>
 
-**CRUD Data Resep**  
-Aplikasi mendukung Create, Read, Update, dan Delete untuk data resep. Pengguna dapat menambahkan resep baru, melihat detail resep, memperbarui informasi resep, dan menghapus resep yang tidak lagi diperlukan.
+  <li><strong>Tampilan Data</strong><br>
+  Daftar resep ditampilkan dalam bentuk daftar menggunakan <em>RecyclerView</em>, lengkap dengan nama resep dan durasi memasak. Gambar resep dimuat menggunakan <strong>Glide Library</strong> agar proses loading gambar lebih cepat dan efisien.</li>
 
----
+  <li><strong>CRUD Data Resep</strong><br>
+  Aplikasi mendukung <em>Create, Read, Update, dan Delete</em> untuk data resep. Pengguna dapat menambahkan resep baru, melihat detail resep, memperbarui informasi resep, dan menghapus resep yang tidak lagi diperlukan.</li>
+</ul>
 
-🎯 Tujuan  
+<hr>
+
+<h2>🎯 Tujuan</h2>
+<p>
 Membantu pengguna menyimpan dan mengelola resep pribadi secara digital agar lebih praktis dan terorganisir.
+</p>
 
-📌 Teknologi yang Digunakan  
-- Android (Java)  
-- Firebase Authentication  
-- Firebase Realtime Database  
-- Glide Library  
-- Base64 Encoding (untuk konversi gambar)  
-- RecyclerView
+<h2>📌 Teknologi yang Digunakan</h2>
+<ul>
+  <li>Android (Java)</li>
+  <li>Firebase Authentication</li>
+  <li>Firebase Realtime Database</li>
+  <li>Glide Library</li>
+  <li>Base64 Encoding (untuk konversi gambar)</li>
+  <li>RecyclerView</li>
+</ul>
+
+
