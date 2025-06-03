@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:background="@drawable/recipe_item_background"
+    android:padding="16dp"
+    android:layout_marginBottom="12dp"
+    android:gravity="center_vertical"
+    android:clickable="true"
+    android:focusable="true">
+
+    <!-- Recipe Image -->
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_recipe_image"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:src="@drawable/placeholder_food"
+        android:layout_marginEnd="16dp" />
+
+    <!-- Recipe Info -->
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_recipe_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Telor ceplok"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:layout_marginBottom="4dp" />
+
+        <!-- Added missing cooking time TextView -->
+        <TextView
+            android:id="@+id/tv_cooking_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="15 menit"
+            android:textSize="14sp"
+            android:textColor="@android:color/darker_gray"
+            android:drawableStart="@drawable/ic_clock"
+            android:drawablePadding="4dp"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <!-- Arrow Icon -->
+    <ImageView
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/ic_arrow_forward"
+        android:contentDescription="View Recipe" />
+
+</LinearLayout>
